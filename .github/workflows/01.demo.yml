@@ -15,4 +15,4 @@ jobs:
         python-version: '3.13'
 
     - name: run a py script 
-      run: python hello.py
+      run: python /workflows/hello.py
