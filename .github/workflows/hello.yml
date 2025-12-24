@@ -3,7 +3,7 @@ on: push #push,pull,schedule our branch,branch use
 
 jobs:
   demo:
-    runs-on: ubuntu-lattest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Demo world
