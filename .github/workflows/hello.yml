@@ -2,4 +2,11 @@ name: Hello
 on: push #push,pull,schedule our branch,branch use
 
 jobs:
+  demo:
+    runs-on: ubuntu-lattest
+
+    steps:
+      - name: Demo world
+        run: echo "Demo world"
+  
 
