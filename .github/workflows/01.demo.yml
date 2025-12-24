@@ -1,4 +1,4 @@
-name: Run hellow world from py script
+name: Run hello world from py script
 on: push
 
 jobs:
